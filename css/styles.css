@@ -1,0 +1,192 @@
+:root{
+    --primary-text-color: #757575;
+    --primary-bg-color: #ffffff;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-bg-color: #F5F4FA;
+    --secondary-link-color: rgba(255, 255, 255, 0.6);
+    --third-bg-color: #2F303A;
+    --secondary-title-text-color: #000000;
+    }
+    
+    body {
+       background-color: var(--primary-bg-color);    
+       font-family: 'Roboto', sans-serif;
+       font-weight: 400;
+       color: var(--primary-text-color);
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    h1{
+        font-family: 'Roboto', sans-serif; 
+        font-weight: 900;
+    }
+    
+    /*Header*/
+    .company-name{
+        color:#ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        letter-spacing: 0.03em; 
+        line-height: 1.2;
+    }
+
+    .navigation-item,
+    .e-mail,
+    .phone-number{
+        font-weight: 500; 
+    }
+
+    .navigation .navigation-item{
+        line-height: 1.14;
+        color: var(--title-text-color);
+    }
+
+    .navigation .navigation-item:hover{
+        color: var(--accent-color);
+    }
+
+    .phone-number,
+    .e-mail{
+        line-height: 1.14;
+    }
+
+    .navigation > .company-name{
+        color: #000000;
+    }
+    
+    nav{
+        letter-spacing: 0.02em; 
+    }
+
+    .navigation-item:active {
+        color: var(--accent-color);
+      }
+    
+    /*Hero*/
+
+    .primary-button{
+        background-color: var(--accent-color);
+        color: var(--primary-bg-color);
+        font-size: 16px;
+        letter-spacing: 0.06em;
+    }
+    
+    .hero-title{
+        color: var(--primary-bg-color);
+        font-size: 44px;
+        letter-spacing: 0.06em;    
+        line-height: 1.4;
+        text-align: center;
+    }
+    
+    .hero{
+        background-color: var(--third-bg-color);
+    }
+
+    /*Our advantages*/
+    
+    .our-advantages-item h3{
+        color: var(--title-text-color);
+        font-weight: 700;
+    }
+    
+    .our-advantages h3{
+        letter-spacing: 0.03em;
+    }
+    
+    .our-advantages p{
+        letter-spacing: 0.03em;
+    }
+    
+    .what-we-do-title{
+        color: var(--title-text-color);
+        letter-spacing: 0.03em;
+    }
+    
+    
+    
+    
+
+    
+    
+    
+  
+    
+    .list{
+        list-style: none;
+    }
+    
+    .web{
+        color: var(--accent-color);
+    }
+    
+    link{
+     color: black;
+    }
+    
+    .our-advantages{
+        font-size: 14px;
+    }
+    
+    .our-advantages-title{
+      color: var(--primary-bg-color);
+    }
+    
+    .our-team-title{
+        color: var(--title-text-color);
+        font-weight: 700;
+        letter-spacing: 0.03em;
+    }
+    
+    .team-member-name{
+     color: var(--title-text-color);
+     font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .our-team-item{
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+    }
+    
+    .our-team-item p{
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+    }
+    
+    header{
+        font-size: 14px;
+    }
+    
+    .adress-link{
+        color: var(--secondary-link-color);
+    }
+    
+    .footer{
+       background-color: var(--third-bg-color);
+    }
+    
+   
+    
+   
+    
+    /*Portfolio*/
+    
+    .product-title{
+        color: var(--title-text-color);
+    }
+
+    .portfolio-title{
+        color:  var(--title-text-color);
+    }
+
+    .port-nav:visited   {
+        color: var(--accent-color);
+
+    }
