@@ -14,8 +14,9 @@
 body {
   background-color: var(--primary-bg-color);
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-size: 14px;
   color: var(--primary-text-color);
+  letter-spacing: 0.03em;
 }
 
 a {
@@ -42,6 +43,10 @@ header {
   width: 1600px;
 }
 
+.navigation-item-studio:visited {
+  color: var(--accent-color);
+}
+
 .header {
   display: flex;
   margin: 0px auto;
@@ -60,7 +65,7 @@ header {
 }
 
 .company-name {
-  color: #ffffff;
+  color: var(--primary-bg-color);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -105,7 +110,7 @@ header {
 }
 
 .navigation > .company-name {
-  color: #000000;
+  color: var(--secondary-title-text-color);
 }
 
 nav {
@@ -126,11 +131,15 @@ nav {
   color: var(--primary-bg-color);
   font-size: 16px;
   letter-spacing: 0.06em;
-  line-height: 1.4;
+  line-height: 1.9;
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
-  margin: 350px 700px 200px;
+  /* margin: 350px 700px 200px; */
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-title {
@@ -169,14 +178,10 @@ nav {
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.14;
-}
-
-.our-advantages h3 {
-  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .our-advantages p {
-  letter-spacing: 0.03em;
   line-height: 1.7;
 }
 
@@ -192,7 +197,6 @@ nav {
 
 .what-we-do-title {
   color: var(--title-text-color);
-  letter-spacing: 0.03em;
   line-height: 1.2;
   font-size: 36px;
   text-align: center;
@@ -230,7 +234,7 @@ nav {
 .our-team-title {
   color: var(--title-text-color);
   font-weight: 700;
-  letter-spacing: 0.03em;
+
   line-height: 1.2;
   text-align: center;
   font-size: 36px;
@@ -253,15 +257,15 @@ nav {
 .our-team-item {
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.03em;
-  background-color: #ffffff;
+
+  background-color: var(--primary-bg-color);
   margin-left: 30px;
 }
 
 .our-team-item p {
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 0.03em;
+
   line-height: 1.2;
 }
 
@@ -287,18 +291,11 @@ nav {
   margin-left: 215px;
 }
 
-/* Portfolio CSS */
-
-:root {
-  --primary-text-color: #757575;
-  --primary-bg-color: #ffffff;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --secondary-bg-color: #f5f4fa;
-  --secondary-link-color: rgba(255, 255, 255, 0.6);
-  --third-bg-color: #2f303a;
-  --secondary-title-text-color: #000000;
+.adress-link-adress-test {
+  color: var(--primary-bg-color);
 }
+
+/* Portfolio CSS */
 
 /*Tag selectors*/
 
@@ -324,91 +321,6 @@ h1 {
 
 * {
   box-sizing: border-box;
-}
-
-/*Header*/
-
-header {
-  font-size: 14px;
-  width: 1600px;
-}
-
-.header {
-  display: flex;
-  margin: 0px auto;
-  height: 80px;
-  border-bottom: 1px solid #ececec;
-}
-
-.navigation {
-  display: flex;
-}
-
-.navigation-list {
-  display: flex;
-  margin-left: 93px;
-  align-items: center;
-}
-
-.company-name {
-  color: #ffffff;
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  line-height: 1.2;
-  margin-left: 215px;
-  margin-top: 24px;
-}
-
-.navigation-item,
-.e-mail,
-.phone-number {
-  font-weight: 500;
-}
-
-.header-links {
-  margin-top: 32px;
-  margin-left: 331px;
-}
-
-.e-mail,
-.phone-number {
-  color: var(--primary-text-color);
-}
-
-.phone-number {
-  margin-left: 50px;
-}
-
-.navigation-item {
-  line-height: 1.14;
-  color: var(--title-text-color);
-  margin-right: 50px;
-}
-
-.navigation .navigation-item:hover {
-  color: var(--accent-color);
-}
-
-.phone-number,
-.e-mail {
-  line-height: 1.14;
-}
-
-.navigation > .company-name {
-  color: #000000;
-}
-
-nav {
-  letter-spacing: 0.02em;
-}
-
-.navigation-item:active {
-  color: var(--accent-color);
-}
-
-.web {
-  color: var(--accent-color);
 }
 
 /* Main part */
@@ -456,7 +368,7 @@ nav {
 
 .portfolio-button:hover {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 
 .main-section-item {
@@ -494,36 +406,6 @@ nav {
 }
 
 .product-title {
-}
-
-/*Footer*/
-
-.adress-link {
-  color: var(--secondary-link-color);
-  line-height: 1.7;
-}
-
-.footer {
-  background-color: var(--third-bg-color);
-  width: 1600px;
-  margin: 0px auto;
-  height: 252px;
-}
-
-.footer-wrapper {
-  background-color: var(--third-bg-color);
-}
-
-.adress {
-  margin-left: 215px;
-}
-
-.first-three {
-  margin-top: 0;
-}
-
-.footer-portfolio {
-  margin: 94px 0 0 0;
 }
 
 /* Normalize css */
