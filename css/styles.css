@@ -185,10 +185,13 @@ nav {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 0px;
 }
 
 .our-advantages p {
   line-height: 1.7;
+  margin-top: 10px;
 }
 
 .our-advantages {
@@ -197,6 +200,12 @@ nav {
 
 .our-advantages-list {
   display: flex;
+  padding: 94px 215px;
+  margin: 0%;
+}
+
+.our-advantages-item {
+  width: 270px;
 }
 
 /*What we do*/
@@ -225,12 +234,15 @@ nav {
 .our-team {
   background-color: var(--secondary-bg-color);
   height: 648px;
+  width: 1600px;
+  margin: 0px auto;
 }
 
 .our-team-List {
   display: flex;
   margin-bottom: 0%;
   margin-bottom: 40px;
+  padding: 186px 215px 94px;
 }
 
 .team-member-name {
@@ -419,5 +431,3 @@ h1 {
 
 .product-title {
 }
-
-/* Normalize css */
