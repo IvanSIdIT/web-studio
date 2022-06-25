@@ -80,6 +80,11 @@ header {
   font-weight: 500;
 }
 
+.header-link:focus,
+.header-link:hover {
+  color: var(--accent-color);
+}
+
 .header-links {
   margin-top: 32px;
   margin-left: 331px;
@@ -100,6 +105,7 @@ header {
   margin-right: 50px;
 }
 
+.navigation .navigation-item:focus,
 .navigation .navigation-item:hover {
   color: var(--accent-color);
 }
@@ -289,9 +295,15 @@ nav {
 
 .adress {
   margin-left: 215px;
+  font-style: normal;
 }
 
-.adress-link-adress-test {
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--accent-color);
+}
+
+.adress-link-adress {
   color: var(--primary-bg-color);
 }
 
