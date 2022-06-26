@@ -202,6 +202,8 @@ nav {
 
 .our-advantages {
   font-size: 14px;
+  width: 1600px;
+  margin-left: 151.5px;
 }
 
 .our-advantages-list {
@@ -219,19 +221,41 @@ nav {
   margin-left: 30px;
 }
 
+.our-advantages-item:first-child {
+  margin-left: 0%;
+}
+
 /*What we do*/
+
+.what-we-do {
+  height: 386px;
+  margin-bottom: 94px;
+}
 
 .what-we-do-title {
   color: var(--title-text-color);
   line-height: 1.2;
   font-size: 36px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .what-we-do-list {
   display: flex;
-  padding-left: 215px;
-  padding-right: 215px;
+  margin: 0%;
+  /* padding-left: 215px;
+  padding-right: 215px; */
+  width: 1170px;
+  padding: 0%;
+  margin: 0 auto;
+}
+
+.what-we-do-content {
+  /* padding-left: 350px; */
+  width: 1600px;
+  align-items: center;
+  margin: 0%;
+  margin-left: 151.5px;
 }
 
 .what-we-do-item {
@@ -253,50 +277,64 @@ nav {
 
 .our-team-List {
   display: flex;
-  margin-bottom: 0%;
-  margin-bottom: 40px;
-  padding: 186px 215px 94px;
+  margin: 0%;
+  padding: 47px 215px 94px;
 }
 
-.team-member-name {
-  color: var(--title-text-color);
+.our-team-item:first-child {
+  margin-left: 0%;
 }
 
 .our-team-title {
   color: var(--title-text-color);
   font-weight: 700;
-
+  padding-top: 94px;
   line-height: 1.2;
   text-align: center;
   font-size: 36px;
+  margin: 0%;
 }
 
-.our-team-title {
+.our-team-wrapper {
+  background-color: var(--secondary-bg-color);
 }
 
 .our-team-item-first {
   margin-left: 0%;
 }
 
+.card-content {
+  margin: 0%;
+  text-align: center;
+  margin: 30px 0;
+}
+
 .team-member-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  margin: 0%;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .our-team-item {
   font-weight: 500;
   font-size: 16px;
-
+  height: 370px;
+  width: 270px;
   background-color: var(--primary-bg-color);
   margin-left: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-item p {
   font-weight: 400;
   font-size: 16px;
-
+  margin: 0%;
   line-height: 1.2;
 }
 
@@ -308,10 +346,6 @@ nav {
   margin-bottom: 10px;
   display: inline-block;
 }
-
-/* .test {
-    margin-bottom: 10px;
-  } */
 
 .footer {
   background-color: var(--third-bg-color);
@@ -327,6 +361,7 @@ nav {
 .company-footer {
   margin-bottom: 20px;
   display: inline-block;
+  margin-top: 60px;
 }
 
 .adress {
@@ -344,32 +379,6 @@ nav {
 }
 
 /* Portfolio CSS */
-
-/*Tag selectors*/
-
-body {
-  background-color: var(--primary-bg-color);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: var(--primary-text-color);
-}
-
-a {
-  text-decoration: none;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-}
-
-.list {
-  list-style: none;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 /* Main part */
 

@@ -75,48 +75,59 @@
       <!--What we Do-->
       <section class="what-we-do">
         <h2 class="what-we-do-title">Чем мы занимаемся</h2>
-        <ul class="what-we-do-list list">
-          <li class="what-we-do-item what-we-do-item-first">
-            <img src="./images/box1.jpg" alt="Пример 1" width="370" />
-          </li>
-          <li class="what-we-do-item">
-            <img src="./images/box2.jpg" alt="Пример 2" width="370" />
-          </li>
-          <li class="what-we-do-item">
-            <img src="./images/box3.jpg" alt="Пример 3" width="370" />
-          </li>
-        </ul>
+        <div class="what-we-do-content">
+          <ul class="what-we-do-list list">
+            <li class="what-we-do-item what-we-do-item-first">
+              <img src="./images/box1.jpg" alt="Пример 1" width="370" />
+            </li>
+            <li class="what-we-do-item">
+              <img src="./images/box2.jpg" alt="Пример 2" width="370" />
+            </li>
+            <li class="what-we-do-item">
+              <img src="./images/box3.jpg" alt="Пример 3" width="370" />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Our Team-->
-      <section class="our-team">
-        <h2 class="our-team-title">Наша команда</h2>
+      <div class="our-team-wrapper">
+        <section class="our-team">
+          <h2 class="our-team-title">Наша команда</h2>
+          <ul class="our-team-List list">
+            <li class="our-team-item our-team-item-first">
+              <img src="./images/team/img.jpg" alt="Фото Игоря" width="270" />
+              <div class="card-content">
+                <h3 class="team-member-name">Игорь Демьяненко</h3>
+                <p class="Team-member-job">Product Designer</p>
+              </div>
+            </li>
 
-        <ul class="our-team-List list">
-          <li class="our-team-item our-team-item-first">
-            <img src="./images/img.jpg" alt="Фото Игоря" width="270" />
-            <h3 class="team-member-name">Игорь Демьяненко</h3>
-            <p class="Team-member-job">Product Designer</p>
-          </li>
+            <li class="our-team-item">
+              <img src="./images/team/Olga.jpg" alt="Фото Ольгь" width="270" />
+              <div class="card-content">
+                <h3 class="team-member-name">Ольга Репина</h3>
+                <p class="Team-member-job">Frontend Developer</p>
+              </div>
+            </li>
 
-          <li class="our-team-item">
-            <img src="./images/Olga.jpg" alt="Фото Ольгь" width="270" />
-            <h3 class="team-member-name">Ольга Репина</h3>
-            <p class="Team-member-job">Frontend Developer</p>
-          </li>
+            <li class="our-team-item">
+              <img src="./images/team/Михаил.jpg" alt="Фото Михаила" width="270" />
+              <div class="card-content">
+                <h3 class="team-member-name">Николай Тарасов</h3>
+                <p class="Team-member-job">Marketing</p>
+              </div>
+            </li>
 
-          <li class="our-team-item">
-            <img src="./images/Михаил.jpg" alt="Фото Михаила" width="270" />
-            <h3 class="team-member-name">Николай Тарасов</h3>
-            <p class="Team-member-job">Marketing</p>
-          </li>
-
-          <li class="our-team-item">
-            <img src="./images/Николай.jpg" alt="Фото Николая" width="270" />
-            <h3 class="team-member-name">Михаил Ермаков</h3>
-            <p class="team-member-job">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+            <li class="our-team-item">
+              <img src="./images/team/Николай.jpg" alt="Фото Николая" width="270" />
+              <div class="card-content">
+                <h3 class="team-member-name">Михаил Ермаков</h3>
+                <p class="team-member-job">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
     <!--Footer-->
     <div class="footer-wrapper">
@@ -125,11 +136,8 @@
           ><span class="web">Web</span>Studio</a
         >
         <address class="adress">
-          <span class="test"
-            ><a href="" class="adress-link-adress adress-link"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            ></span
-          >
+          <a href="" class="adress-link-adress adress-link">г. Киев, пр-т Леси Украинки, 26</a>
+
           <br />
           <a href="" class="adress-link">info@example.com</a> <br />
           <a href="" class="adress-link">+38 099 111 11 11</a>
@@ -137,4 +145,5 @@
       </footer>
     </div>
   </body>
+  <script src="./js/srcipts.js"></script>
 </html>
