@@ -38,13 +38,15 @@ h1 {
 
 /*Header*/
 
-header {
-  font-size: 14px;
-  width: 1600px;
-}
-
 .navigation-item-studio:visited {
   color: var(--accent-color);
+}
+
+.wrapper {
+  position: fixed;
+  top: 0px;
+  background-color: var(--primary-bg-color);
+  left: 152px;
 }
 
 .header {
@@ -52,6 +54,8 @@ header {
   margin: 0px auto;
   height: 80px;
   border-bottom: 1px solid #ececec;
+  font-size: 14px;
+  width: 1600px;
 }
 
 .navigation {
