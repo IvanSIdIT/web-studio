@@ -38,6 +38,10 @@ h1 {
 
 /*Header*/
 
+.header-wrapper {
+  border-bottom: 1px solid #ececec;
+}
+
 header {
   font-size: 14px;
   width: 1600px;
@@ -51,7 +55,6 @@ header {
   display: flex;
   margin: 0px auto;
   height: 80px;
-  border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -291,5 +294,5 @@ nav {
 
 .test_test {
   overflow: hidden;
-  height: 295px;
+  height: 294px;
 }

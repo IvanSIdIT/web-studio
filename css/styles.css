@@ -43,10 +43,7 @@ h1 {
 }
 
 .wrapper {
-  position: fixed;
-  top: 0px;
   background-color: var(--primary-bg-color);
-  left: 152px;
 }
 
 .header {
@@ -175,6 +172,10 @@ nav {
   line-height: 1.4;
   text-align: center;
   text-transform: uppercase;
+}
+
+.hero-wrapper {
+  background-color: var(--third-bg-color);
 }
 
 .hero {
