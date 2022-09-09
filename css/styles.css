@@ -208,7 +208,7 @@ nav {
 .our-advantages {
   font-size: 14px;
   width: 1600px;
-  margin-left: 151.5px;
+  margin: 0 auto;
 }
 
 .our-advantages-list {
@@ -234,7 +234,10 @@ nav {
 
 .what-we-do {
   height: 386px;
-  margin-bottom: 94px;
+  padding-bottom: 100px;
+  width: 1600px;
+  height: 490px;
+  margin: 0 auto;
 }
 
 .what-we-do-title {
@@ -260,7 +263,6 @@ nav {
   width: 1600px;
   align-items: center;
   margin: 0%;
-  margin-left: 151.5px;
 }
 
 .what-we-do-item {
