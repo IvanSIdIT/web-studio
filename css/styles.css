@@ -88,7 +88,7 @@ h1 {
 
 .header-links {
   margin-top: 32px;
-  margin-left: 331px;
+  margin-left: 305px;
 }
 
 .e-mail,
@@ -131,6 +131,17 @@ nav {
 .web {
   color: var(--accent-color);
 }
+
+@media (max-width: 1616px) {
+  .header {
+    width: 1170px;
+  }
+
+  .company-name {
+    margin-left: 0%;
+  }
+}
+
 /*Hero*/
 
 .primary-button {
@@ -191,6 +202,10 @@ nav {
   color: var(--primary-bg-color);
 }
 
+.our-advantages__content {
+  margin: 0 auto;
+}
+
 .our-advantages-item h3 {
   color: var(--title-text-color);
   font-weight: 700;
@@ -209,12 +224,29 @@ nav {
   font-size: 14px;
   width: 1600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1616px) {
+  .our-advantages {
+    width: 1170px;
+  }
+
+  .what-we-do {
+    width: 1170px;
+  }
+
+  .hero {
+    width: 1170px;
+  }
 }
 
 .our-advantages-list {
   display: flex;
-  padding: 94px 215px;
-  margin: 0%;
+  padding: 94px 0 94px 0;
+  margin: 0 auto;
 }
 
 .our-advantages-list:first-child {
@@ -238,6 +270,13 @@ nav {
   width: 1600px;
   height: 490px;
   margin: 0 auto;
+}
+
+@media (max-width: 1616px) {
+  .what-we-do {
+    width: 1170px;
+    margin: 0 auto;
+  }
 }
 
 .what-we-do-title {
@@ -273,6 +312,17 @@ nav {
   margin-left: 0%;
 }
 
+@media (max-width: 1616px) {
+  .what-we-do {
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  .what-we-do-content {
+    width: 1170px;
+  }
+}
+
 /*Our Team*/
 
 .our-team {
@@ -284,8 +334,11 @@ nav {
 
 .our-team-List {
   display: flex;
-  margin: 0%;
-  padding: 47px 215px 94px;
+  padding-top: 50px;
+  padding-left: 215px;
+  margin: 0 auto;
+  width: 1600px;
+  /* padding: 47px 215px 94px; */
 }
 
 .our-team-item:first-child {
@@ -345,6 +398,18 @@ nav {
   line-height: 1.2;
 }
 
+@media (max-width: 1616px) {
+  .our-team {
+    width: 1170px;
+  }
+
+  .our-team-List {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 0%;
+  }
+}
+
 /*Footer*/
 
 .adress-link {
@@ -385,86 +450,8 @@ nav {
   color: var(--primary-bg-color);
 }
 
-/* Portfolio CSS */
-
-/* Main part */
-
-.product-title {
-  color: var(--title-text-color);
-  line-height: 2;
-  font-size: 18px;
-}
-
-.main-section-item p {
-  line-height: 1.9;
-  font-size: 16px;
-}
-
-.portfolio-title {
-  color: var(--title-text-color);
-}
-
-.port-nav:visited {
-  color: var(--accent-color);
-}
-
-.button-list {
-  display: flex;
-  margin-left: 646.5px;
-  margin-top: 94px;
-
-  padding-bottom: 34px;
-}
-
-.portfolio-button {
-  border: none;
-  color: var(--title-text-color);
-  background-color: var(--secondary-bg-color);
-  border-radius: 4px;
-  font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  padding: 6px 22px;
-  cursor: pointer;
-  margin-left: 8px;
-}
-
-.portfolio-button:hover {
-  background-color: var(--accent-color);
-  color: var(--primary-bg-color);
-}
-
-.main-section-item {
-  border: 1px solid #eeeeee;
-}
-
-.main-section-item-description {
-  color: var(--primary-text-color);
-}
-
-.product-title {
-  color: var(--title-text-color);
-}
-
-.portfolio-wrapper {
-  display: flex;
-}
-
-.portfolio-list {
-  margin-left: 366.5px;
-}
-
-.portfolio-title {
-  text-align: center;
-  font-size: 1px;
-  color: var(--primary-bg-color);
-}
-
-.main-section-item {
-  margin: 30px 0 0 30px;
-}
-
-.main-section-item-link {
-  width: 370px;
+@media (max-width: 1616px) {
+  .footer {
+    width: 1170px;
+  }
 }
