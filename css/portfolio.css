@@ -11,6 +11,11 @@
 
 /*Tag selectors*/
 
+main {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
 body {
   background-color: var(--primary-bg-color);
   font-family: 'Roboto', sans-serif;
@@ -136,6 +141,22 @@ nav {
 
 /* Main part */
 
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1180px) {
+  .portfolio-list {
+    width: 1000px;
+  }
+}
+
+.test {
+  max-width: 100%;
+}
+
 .product-title {
   color: var(--title-text-color);
   line-height: 2;
@@ -204,12 +225,13 @@ nav {
 .portfolio-list {
   /* margin-left: 366.5px; */
   display: flex;
-  width: 1176px;
+  width: 1206px;
   flex-wrap: wrap;
   padding-bottom: 95px;
   margin-bottom: 0%;
   padding-left: 0%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .main-section-item:first-child {
