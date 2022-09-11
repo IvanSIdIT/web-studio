@@ -43,25 +43,26 @@ h1 {
 
 /****Header****/
 
-.header-wrapper {
-  border-bottom: 1px solid #ececec;
-}
-
-header {
-  font-size: 14px;
-  width: 1600px;
-}
-
 .navigation-item-studio:visited {
   color: var(--accent-color);
 }
 
-.header {
-  display: flex;
-  margin: 0px auto;
-  height: 80px;
+.wrapper {
+  background-color: var(--primary-bg-color);
 }
 
+.header {
+  display: flex;
+  margin: 0 auto;
+  width: 1600px;
+  height: 80px;
+
+  font-size: 14px;
+}
+
+.header-wrapper {
+  border-bottom: 1px solid #ececec;
+}
 .navigation {
   display: flex;
 }
@@ -95,7 +96,7 @@ header {
 
 .header-links {
   margin-top: 32px;
-  margin-left: 331px;
+  margin-left: 305px;
 }
 
 .e-mail,
@@ -110,7 +111,6 @@ header {
 .navigation-item {
   line-height: 1.14;
   color: var(--title-text-color);
-  margin-right: 50px;
 }
 
 .navigation .navigation-item:focus,
@@ -137,6 +137,26 @@ nav {
 
 .web {
   color: var(--accent-color);
+}
+
+.nav-list__item {
+  margin-right: 50px;
+}
+
+.nav-list__item:last-child {
+  margin-right: 0%;
+}
+
+@media (max-width: 1616px) {
+  .header {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .company-name {
+    margin-left: 0%;
+  }
 }
 
 /**** Main part ****/
@@ -259,6 +279,21 @@ nav {
   margin-left: 0%;
 }
 
+.test {
+  transform: scale(1, 1);
+  transition-duration: 0.5s;
+}
+
+.test:hover {
+  transform: scale(1.05, 1.05);
+  transition-duration: 0.5s;
+}
+
+.test_test {
+  overflow: hidden;
+  height: 294px;
+}
+
 /****Footer****/
 
 .adress-link {
@@ -268,7 +303,14 @@ nav {
   display: inline-block;
 }
 
-.footer {
+.adress-link {
+  color: var(--secondary-link-color);
+  line-height: 1.7;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer__container {
   background-color: var(--third-bg-color);
   width: 1600px;
   margin: 0px auto;
@@ -299,17 +341,14 @@ nav {
   color: var(--primary-bg-color);
 }
 
-.test {
-  transform: scale(1, 1);
-  transition-duration: 0.5s;
-}
+@media (max-width: 1616px) {
+  [class*='__container'] {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0 15px;
+  }
 
-.test:hover {
-  transform: scale(1.05, 1.05);
-  transition-duration: 0.5s;
-}
-
-.test_test {
-  overflow: hidden;
-  height: 294px;
+  .adress {
+    margin-left: 0%;
+  }
 }
