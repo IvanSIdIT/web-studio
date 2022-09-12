@@ -177,11 +177,6 @@ nav {
   padding-bottom: 280px;
 }
 
-.hero-title {
-  margin: 0%;
-  margin-bottom: 30px;
-}
-
 .button-wrapper {
   text-align: center;
 }
@@ -197,6 +192,8 @@ nav {
   line-height: 1.4;
   text-align: center;
   text-transform: uppercase;
+  margin: 0%;
+  margin-bottom: 30px;
 }
 
 .hero-wrapper {
@@ -207,6 +204,12 @@ nav {
   background-color: var(--third-bg-color);
 
   height: 600px;
+}
+
+@media (max-width: 1216px) {
+  .hero-title {
+    font-size: 26px;
+  }
 }
 
 /****Our advantages****/
@@ -279,7 +282,7 @@ nav {
     padding-bottom: 65px;
   }
 
-  .our-advantages__img-first {
+  .our-advantages__img {
     display: none;
   }
 
@@ -296,7 +299,7 @@ nav {
     border-radius: 4px;
     width: 354px;
     height: 120px;
-    background: url('../images/clock\ 1.png') #f5f4fa no-repeat center;
+    background: url('../images/diagram\ 1.png') #f5f4fa no-repeat center;
     margin-top: 120px;
   }
 
@@ -304,7 +307,7 @@ nav {
     border-radius: 4px;
     width: 354px;
     height: 120px;
-    background: url('../images/clock\ 1.png') #f5f4fa no-repeat center;
+    background: url('../images/astronaut\ 1.png') #f5f4fa no-repeat center;
     margin-top: 120px;
   }
 
@@ -312,7 +315,7 @@ nav {
     border-radius: 4px;
     width: 354px;
     height: 120px;
-    background: url('../images/clock\ 1.png') #f5f4fa no-repeat center;
+    background: url('../images/clock\ 1\ \(1\).png') #f5f4fa no-repeat center;
   }
 
   .our-advantages-item:first-child {
@@ -322,7 +325,7 @@ nav {
     background: url('../images/antenna\ 1.png') #f5f4fa no-repeat center;
   }
 
-  .our-advantages-item:first-child > .advantages__text {
+  .our-advantages-item > .advantages__text {
     position: relative;
     top: 150px;
   }
@@ -454,6 +457,42 @@ nav {
   }
 }
 
+@media (max-width: 1216px) {
+  .our-team__container {
+    height: 1285px;
+  }
+
+  .our-team-List {
+    width: 798px;
+    margin: 0 auto;
+    padding-left: 0%;
+    flex-wrap: wrap;
+    padding-left: 25px;
+  }
+
+  .our-team-item:nth-child(3) {
+    margin-left: 0%;
+  }
+
+  .our-team-item:nth-child(1),
+  .our-team-item:nth-child(2) {
+    margin: 0 0 30px 0;
+  }
+
+  .our-team-item:nth-child(1) {
+    margin-right: 30px;
+  }
+
+  .our-team-item {
+    width: 355px;
+    height: 505px;
+  }
+
+  .our-team-List__img {
+    width: 355px;
+  }
+}
+
 /****customers****/
 
 .customers {
@@ -572,5 +611,13 @@ nav {
 
   .what-we-do__container {
     display: none;
+  }
+}
+
+@media (max-width: 1216px) {
+  [class*='__container'] {
+    width: 798px;
+    margin: 0px auto;
+    padding: 0 15px;
   }
 }
