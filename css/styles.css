@@ -185,6 +185,14 @@ nav {
   cursor: pointer;
 }
 
+.svg-path:hover {
+  fill: var(--accent-color);
+}
+
+rect:hover {
+  stroke: var(--accent-color);
+}
+
 .hero-title {
   color: var(--primary-bg-color);
   font-size: 44px;
