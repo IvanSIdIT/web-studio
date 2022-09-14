@@ -159,6 +159,30 @@ nav {
   }
 }
 
+@media (max-width: 1216px) {
+  .company-name {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .header {
+    width: 798px;
+  }
+
+  .header__name {
+    margin-right: 88px;
+  }
+
+  .header-links {
+    margin-left: 84px;
+    flex-wrap: wrap;
+  }
+
+  .phone-number {
+    flex-wrap: nowrap;
+  }
+}
+
 /**** Main part ****/
 
 .main-section {

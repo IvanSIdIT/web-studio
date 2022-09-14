@@ -54,10 +54,11 @@ h1 {
 .header {
   display: flex;
   margin: 0 auto;
-  width: 1600px;
+  width: 1630px;
   height: 80px;
   border-bottom: 1px solid #ececec;
   font-size: 14px;
+  padding: 0 15px;
 }
 
 .navigation {
@@ -66,7 +67,6 @@ h1 {
 
 .navigation-list {
   display: flex;
-  margin-left: 93px;
   align-items: center;
 }
 
@@ -78,6 +78,10 @@ h1 {
   line-height: 1.2;
   margin-left: 215px;
   margin-top: 24px;
+}
+
+.header__name {
+  margin-right: 93px;
 }
 
 .navigation-item,
@@ -147,12 +151,36 @@ nav {
 @media (max-width: 1616px) {
   .header {
     width: 1200px;
-    padding: 0 15px;
+
     margin: 0 auto;
   }
 
   .company-name {
     margin-left: 0%;
+  }
+}
+
+@media (max-width: 1216px) {
+  .company-name {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .header {
+    width: 798px;
+  }
+
+  .header__name {
+    margin-right: 88px;
+  }
+
+  .header-links {
+    margin-left: 84px;
+    flex-wrap: wrap;
+  }
+
+  .phone-number {
+    flex-wrap: nowrap;
   }
 }
 
@@ -530,6 +558,24 @@ rect:hover {
 .customers__item:last-child {
   margin-right: 0%;
 }
+
+@media (max-width: 1216px) {
+  .customers__img {
+    width: 225px;
+    height: 92px;
+  }
+
+  .customers {
+    width: 768px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .customers__list {
+    flex-wrap: wrap;
+  }
+}
+
 /****Footer****/
 
 .adress-link {
@@ -583,12 +629,6 @@ rect:hover {
 }
 
 @media (max-width: 1216px) {
-  [class*='__container'] {
-    /* width: 768px;
-    flex-wrap: wrap;
-    margin: 0px auto;
-    padding: 0 15px; */
-  }
 }
 
 @media (max-width: 1216px) {
