@@ -469,7 +469,7 @@ rect:hover {
 .our-team-item {
   font-weight: 500;
   font-size: 16px;
-  height: 370px;
+  /* height: 370px; */
   width: 270px;
   background-color: var(--primary-bg-color);
   margin-left: 30px;
@@ -483,6 +483,26 @@ rect:hover {
   font-size: 16px;
   margin: 0%;
   line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.card__socials__list {
+  display: flex;
+  justify-content: center;
+}
+
+.card__socials {
+  margin: 0 10px 0 0;
+  width: 45px;
+  height: 45px;
+}
+
+.card__socials:last-child {
+  margin-right: 0%;
+}
+
+.card__icon {
+  margin: 12px;
 }
 
 @media (max-width: 1616px) {
