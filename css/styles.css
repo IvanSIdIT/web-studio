@@ -599,6 +599,10 @@ rect:hover {
     margin-bottom: 30px;
   }
 
+  .customers__item:nth-child(3) {
+    margin-right: 0%;
+  }
+
   .customers__mobile:nth-child(5),
   .customers__mobile:nth-child(6) {
     margin-bottom: 0%;
@@ -612,6 +616,7 @@ rect:hover {
 
   .customers__list {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
