@@ -503,6 +503,8 @@ rect:hover {
   margin: 0 10px 0 0;
   width: 45px;
   height: 45px;
+  border-radius: 50%;
+  transition: 0.2s linear;
 }
 
 .card__socials:last-child {
@@ -511,6 +513,20 @@ rect:hover {
 
 .card__icon {
   margin: 12px;
+}
+
+.card__socials:hover svg path {
+  fill: #ffffff;
+  transition: 0.2s linear;
+}
+
+.card__socials svg path {
+  transition: 0.2s linear;
+}
+
+.card__socials:hover {
+  background-color: var(--accent-color);
+  transition: 0.2s linear;
 }
 
 @media (max-width: 1616px) {
@@ -523,7 +539,7 @@ rect:hover {
 
 @media (max-width: 1216px) {
   .our-team__container {
-    height: 1285px;
+    height: 1300px;
   }
 
   .our-team-List {
@@ -549,7 +565,7 @@ rect:hover {
 
   .our-team-item {
     width: 355px;
-    height: 505px;
+    height: 535px;
   }
 
   .our-team-List__img {
