@@ -176,6 +176,7 @@ nav {
   .header-links {
     margin-left: 84px;
     flex-wrap: wrap;
+    width: 138px;
   }
 
   .phone-number {

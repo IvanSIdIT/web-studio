@@ -177,10 +177,18 @@ nav {
   .header-links {
     margin-left: 84px;
     flex-wrap: wrap;
+    width: 138px;
+    margin-top: 20px;
   }
 
   .phone-number {
     flex-wrap: nowrap;
+    margin-left: 0%;
+  }
+
+  .header__e-mail {
+    margin-bottom: 10px;
+    display: inline-block;
   }
 }
 
