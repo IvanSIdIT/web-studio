@@ -47,6 +47,11 @@ h1 {
   color: var(--accent-color);
 }
 
+.nav-list__item__studio {
+  border-bottom: 4px solid var(--accent-color);
+  border-radius: 2px;
+}
+
 .wrapper {
   background-color: var(--primary-bg-color);
 }
@@ -56,7 +61,7 @@ h1 {
   margin: 0 auto;
   width: 1630px;
   height: 80px;
-  border-bottom: 1px solid #ececec;
+
   font-size: 14px;
   padding: 0 15px;
 }
@@ -142,6 +147,9 @@ nav {
 
 .nav-list__item {
   margin-right: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .nav-list__item:last-child {
@@ -605,17 +613,17 @@ rect:hover {
 
 .customers__svg:hover path {
   fill: var(--accent-color);
-  transition: 0.3s linear;
+  transition: 0.2s linear;
 }
 
 .customers__svg rect,
 .customers__svg path {
-  transition: 1s linear;
+  transition: 0.2s linear;
 }
 
 .customers__svg:hover rect {
   stroke: var(--accent-color);
-  transition: 0.3s linear;
+  transition: 0.2s linear;
 }
 
 @media (max-width: 1216px) {
