@@ -605,12 +605,17 @@ rect:hover {
 
 .customers__svg:hover path {
   fill: var(--accent-color);
-  transition: 0.2s linear;
+  transition: 0.3s linear;
+}
+
+.customers__svg rect,
+.customers__svg path {
+  transition: 1s linear;
 }
 
 .customers__svg:hover rect {
   stroke: var(--accent-color);
-  transition: 0.2s linear;
+  transition: 0.3s linear;
 }
 
 @media (max-width: 1216px) {
