@@ -603,7 +603,14 @@ rect:hover {
   margin-right: 0%;
 }
 
-.customers__mobile {
+.customers__svg:hover path {
+  fill: var(--accent-color);
+  transition: 0.2s linear;
+}
+
+.customers__svg:hover rect {
+  stroke: var(--accent-color);
+  transition: 0.2s linear;
 }
 
 @media (max-width: 1216px) {
