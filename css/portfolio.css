@@ -153,10 +153,6 @@ nav {
   border-radius: 2px;
 }
 
-.nav-list__item:hover,
-.nav-list__item:focus {
-}
-
 .nav-list__item:last-child {
   margin-right: 0%;
 }
